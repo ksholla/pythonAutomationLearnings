@@ -19,7 +19,7 @@ last_name_input.send_keys("User")
 
 ##<input type="email" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
 email_input = driver.find_element(By.NAME, "email")
-email_input.send_keys("Testuser@gmail.com")
+email_input.send_keys("Testuser2@gmail.com")
 
 ##<input type="tel" name="telephone" value="" placeholder="Telephone" id="input-telephone" class="form-control">
 telephone_input = driver.find_element(By.NAME, "telephone")
@@ -50,5 +50,4 @@ Continue_btn = driver.find_element(By.CLASS_NAME,"btn btn-primary")
 continue_button.click()
 
 driver.implicitly_wait(5)
-# Optionally, you can print a message indicating the success of the test
 print("Test passed.")
