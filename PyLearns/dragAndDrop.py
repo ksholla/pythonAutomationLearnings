@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 driver = webdriver.Chrome()
+
 driver.get("https://awesomeqa.com/selenium/mouse_interaction.html")
 
 driver.maximize_window()
