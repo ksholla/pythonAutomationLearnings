@@ -46,7 +46,7 @@ continue_button.click()
 driver.implicitly_wait(5)
 
 #<a href="https://awesomeqa.com/ui/index.php?route=account/account" class="btn btn-primary">Continue</a>
-Continue_btn = driver.find_element(By.CLASS_NAME,"btn btn-primary")
+Continue_btn = driver.find_element(By.CLASS_NAME, "btn btn-primary")
 continue_button.click()
 
 driver.implicitly_wait(5)
